@@ -21,7 +21,7 @@ export default function Home() {
         <TapeSection />
         <TestimonialsSection />
         <AboutSection />
-        <div className="contact-container" id="contact">
+        <div className="contact-container z-0" id="contact">
           <ContactSection />
           <Footer />
         </div>
