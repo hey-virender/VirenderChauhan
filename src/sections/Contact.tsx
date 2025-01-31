@@ -20,10 +20,7 @@ export const ContactSection = () => {
                 Ready to bring your vision to life? Get in touch!
               </p>
             </div>
-            <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=bikuchauhan786@gmail.com"
-              target="_blank"
-            >
+            <a href="mailto=bikuchauhan786@gmail.com" target="_blank">
               <div>
                 <button className="text-white bg-gray-900 inline-flex items-center gap-2 px-6 h-12 rounded-xl w-max border border-gray-900">
                   <span className="font-semibold ">Contact Me</span>
