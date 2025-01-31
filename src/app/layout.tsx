@@ -9,9 +9,13 @@ const calistoga = Calistoga({
   variable: "--font-serif",
   weight: ["400"],
 });
+import Head from "next/head";
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Created with the help of Frontend Tribe",
+  title: "Virender Chauhan",
+  description: "Full Stack Developer",
+  icons: {
+    icon: { type: "image/svg+xml", url: "/logo.svg", rel: "icon" },
+  },
 };
 
 export default function RootLayout({
@@ -21,6 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="icon" href="/logo.svg" />
+      </Head>
       <body
         className={twMerge(
           inter.variable,
