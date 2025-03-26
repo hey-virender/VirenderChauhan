@@ -1,6 +1,7 @@
 import universityLibraryImage from "@/assets/images/library.png";
 import hireHiveImage from "@/assets/images/hirehive.png";
 import orbifyImage from "@/assets/images/orbify.png";
+import prepwiseImage from "@/assets/images/prepwise.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRight from "@/assets/icons/arrow-up-right.svg";
@@ -8,6 +9,26 @@ import Link from "next/link";
 import SectionHeader from "@/components/SectionHeader";
 import Card from "@/components/Card";
 const portfolioProjects = [
+  {
+    company: "PrepWise",
+    year: "2025",
+    title: "AI-Powered Interview Preparation",
+    results: [
+      {
+        title:
+          "AI-Powered Interviews: Create custom interviews by talking to AI.",
+      },
+      {
+        title:
+          "Real-Time Feedback: Get instant AI-driven performance analysis.",
+      },
+      {
+        title: "Community Practice: Attempt interviews made by other users.",
+      },
+    ],
+    link: "https://github.com/hey-virender/prepwise",
+    image: prepwiseImage,
+  },
   {
     company: "University Library",
     year: "2025",
