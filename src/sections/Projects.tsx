@@ -183,7 +183,7 @@ export const ProjectsSection = () => {
                       <ArrowUpRight className="size-4" />
                     </button>
                   </Link>
-                  {project?.link && <Link target="_blank" href={project.repoLink}>
+                  {project?.link && <Link target="_blank" href={project.link}>
                     <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-8 rounded-xl font-semibold inline-flex justify-center items-center gap-2 mt-8 ">
                       <span>Visit</span>
                       <ArrowUpRight className="size-4" />
