@@ -1,7 +1,9 @@
 import universityLibraryImage from "@/assets/images/library.png";
-import hireHiveImage from "@/assets/images/hirehive.png";
+import edugatorImage from "@/assets/images/edugator.png"
 import orbifyImage from "@/assets/images/orbify.png";
 import prepwiseImage from "@/assets/images/prepwise.png";
+import playPasteImage from "@/assets/images/playpaste.png"
+import kingsukhImage from "@/assets/images/kingsukh.png"
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRight from "@/assets/icons/arrow-up-right.svg";
@@ -9,6 +11,84 @@ import Link from "next/link";
 import SectionHeader from "@/components/SectionHeader";
 import Card from "@/components/Card";
 const portfolioProjects = [
+     {
+    company: "King Sukh Guest House",
+    year: "2025",
+    title: "Guest house landing page",
+    results: [
+      {
+        title:
+          "Improved design of existing website.",
+      },
+      { title: "Responsive for all screen sizes" },
+      {
+        title:
+          "Modern UI and animations",
+      },
+    ],
+    repoLink: "https://github.com/hey-virender/kingsukh-guest-house",
+    link:"https://beautiful-otter-91fe68.netlify.app",
+    image: kingsukhImage,
+  },
+  {
+    company: "Social Media Platform",
+    year: "2025",
+    title: "Social Media Web Application",
+    results: [
+      {
+        title:
+          "Users can upload images and interact with them",
+      },
+      { title: "Story upload functionality with auto expire" },
+      {
+        title:
+          "Follower and Following functinality",
+      },
+    ],
+    repoLink: "https://github.com/hey-virender/social-media-app",
+    link:"https://social-media-app-lac-nu.vercel.app",
+    image: orbifyImage,
+  },
+   {
+    company: "Edugator",
+    year: "2025",
+    title: "AI powered tutor",
+    results: [
+      {
+        title:
+          "AI powered tutor that make learning easy.",
+      },
+      { title: "Personalized tutor for each subject." },
+      {
+        title:
+          "Voice Interaction using Vapi and Gemini.",
+      },
+    ],
+    repoLink: "https://github.com/hey-virender/edugator",
+    link:"",
+    image: edugatorImage,
+  },
+  {
+    company: "Playpaste",
+    year: "2025",
+    title: "Generate YT playlist with ease of AI",
+    results: [
+      {
+        title:
+          "Create playlists by pasting the list of songs.",
+      },
+      { title: "Ingreted gemini for prompt processing." },
+      {
+        title:
+          "Uses YT api to create playlists.",
+      },
+    ],
+    repoLink: "https://github.com/hey-virender/Playpaste",
+    link:"https://playpaste.virenderchauhan.in",
+    image: playPasteImage,
+  },
+
+  
   {
     company: "PrepWise",
     year: "2025",
@@ -26,7 +106,8 @@ const portfolioProjects = [
         title: "Community Practice: Attempt interviews made by other users.",
       },
     ],
-    link: "https://github.com/hey-virender/prepwise",
+    repoLink: "https://github.com/hey-virender/prepwise",
+    link:"https://prepwise-brown.vercel.app",
     image: prepwiseImage,
   },
   {
@@ -44,45 +125,12 @@ const portfolioProjects = [
           "Built with Next.js for seamless server-side rendering and fast performance",
       },
     ],
-    link: "https://github.com/hey-virender/university-library.git",
+    repoLink: "https://github.com/hey-virender/university-library.git",
+    link:null,
     image: universityLibraryImage,
   },
-  {
-    company: "HireHive",
-    year: "2024",
-    title: "Freelancing Platform",
-    results: [
-      { title: "Created a platform for clients and freelancers to connect" },
-      {
-        title:
-          "Built using the MERN stack for real-time messaging and dynamic content",
-      },
-      {
-        title:
-          "Implemented user authentication, job posting, and messaging features",
-      },
-    ],
-    link: "https://github.com/hey-virender/HireHive.git",
-    image: hireHiveImage,
-  },
-  {
-    company: "Social Media Platform",
-    year: "2024",
-    title: "Social Media Web Application",
-    results: [
-      {
-        title:
-          "Built a platform where users can upload images and interact via chat",
-      },
-      { title: "Implemented real-time chat functionality with Socket.io" },
-      {
-        title:
-          "Designed the frontend using Next.js for a dynamic and responsive UI",
-      },
-    ],
-    link: "https://github.com/hey-virender/orbify.git",
-    image: orbifyImage,
-  },
+ 
+  
 ];
 
 export const ProjectsSection = () => {
@@ -100,7 +148,7 @@ export const ProjectsSection = () => {
             <Card
               className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:px-20 lg:pt-16 sticky"
               style={{
-                top: `calc(64px + ${index * 40}px)`,
+                top: `calc(64px + ${index *5}px)`,
               }}
               key={project.title}
             >
@@ -128,12 +176,21 @@ export const ProjectsSection = () => {
                     ))}
                   </ul>
 
-                  <Link target="_blank" href={project.link}>
+                  <div className="flex gap-4">
+                    <Link target="_blank" href={project.repoLink}>
                     <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-8 rounded-xl font-semibold inline-flex justify-center items-center gap-2 mt-8 ">
                       <span>Visit Repository</span>
                       <ArrowUpRight className="size-4" />
                     </button>
                   </Link>
+                  {project?.link && <Link target="_blank" href={project.repoLink}>
+                    <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-8 rounded-xl font-semibold inline-flex justify-center items-center gap-2 mt-8 ">
+                      <span>Visit</span>
+                      <ArrowUpRight className="size-4" />
+                    </button>
+                  </Link>}
+                  
+                  </div>
                 </div>
                 <div className="relative lg:w=auto lg:max-w-none">
                   <Image

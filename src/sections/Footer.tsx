@@ -4,7 +4,7 @@ import Link from "next/link";
 const footerLInks = [
   {
     title: "LinkedIn",
-    url: "https://www.linkedin.com/in/virender-chauhan-a44215253/",
+    url: "https://www.linkedin.com/in/virender-chauhan-a44215253",
   },
   {
     title: "Github",
@@ -13,18 +13,18 @@ const footerLInks = [
 ];
 export const Footer = () => {
   return (
-    <footer className="relative -z-40 overflow-x-clip">
-      <div className="absolute -z-50 h-[400px] w-[1600px] bottom-0 left-1/2 -translate-x-1/2 bg-emerald-300/30 [mask-image:radial-gradient(50%_50%_at_bottom_center,black,transparent)] "></div>
+    <footer className="relative overflow-x-clip">
+      <div className="absolute h-[400px] w-[1600px] bottom-0 left-1/2 -translate-x-1/2 bg-emerald-300/30 [mask-image:radial-gradient(50%_50%_at_bottom_center,black,transparent)] -z-50"></div>
       <div className="container">
         <div className="border-t border-white/15 py-6 text-sm flex flex-col md:flex-row md:justify-between items-center gap-8">
           <div className="text-white/40">&copy;2025. All rights reserved.</div>
-          <nav className="flex flex-col md:flex-row items-center gap-8">
+          <nav className="flex flex-col md:flex-row items-center gap-8 z-50">
             {footerLInks.map((link) => (
               <Link
                 href={link.url}
                 target="_blank"
                 key={link.title}
-                className="inline-flex items-center gap-1.5 z-10"
+                className="inline-flex items-center gap-1.5 z-10 cursor-pointer"
               >
                 <span className="font-semibold">{link.title}</span>
                 <ArrowUpRightIcon className="size-4" />

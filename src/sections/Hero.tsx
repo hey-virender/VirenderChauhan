@@ -74,13 +74,13 @@ export const HeroSection = () => {
         </div>
         <div className="max-w-lg mx-auto z-10">
           <h1 className="font-serif text-3xl text-center mt-8 tracking-wide md:text-5xl">
-          Full-Stack Developer | Turning Ideas into Reality ⚡
+          Full-Stack Gen-AI Developer | Turning Ideas into Reality ⚡
           </h1>
           <p
             className="mt-4 text-center text-white/60 md:text-lg ;
           "
           >
-            Hi, I’m Virender Chauhan, a passionate Full-Stack Developer specialized in building high-performance web applications. From intuitive frontends to scalable backends, I turn ideas into seamless digital experiences. Let’s build something amazing together
+            Hi, I’m Virender Chauhan, a passionate Full-Stack GenAI Developer specialized in building high-performance web applications. From intuitive frontends to scalable backends, I turn ideas into seamless digital experiences. Let’s build something amazing together
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4 cursor-auto" >
