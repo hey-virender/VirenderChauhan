@@ -13,13 +13,18 @@
     "@svgr/webpack": "^8.1.0",
     "@types/react-scroll": "^1.8.10",
     "@vercel/analytics": "^1.5.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "framer-motion": "^11.3.21",
+    "gsap": "^3.14.2",
+    "lucide-react": "^0.562.0",
     "next": "^14.2.24",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.4.0",
     "react-scroll": "^1.9.0",
-    "tailwind-merge": "^2.4.0"
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20",
