@@ -1,36 +1,186 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Virender Chauhan Portfolio
 
-## Getting Started
+A modern, responsive, and interactive developer portfolio built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and modern UI animations.
 
-First, run the development server:
+🌐 **Live Website:** https://virenderchauhan.in
+
+📂 **Repository:** https://github.com/hey-virender/VirenderChauhan
+
+---
+
+## 👋 About
+
+This portfolio showcases my work as a **Full Stack Developer** and **AI Enthusiast**, highlighting projects, technical skills, testimonials, and contact information.
+
+The website is designed with a strong focus on:
+
+* Modern UI/UX
+* Performance
+* Responsive Design
+* Smooth Animations
+* SEO Optimization
+* Accessibility
+
+---
+
+## ✨ Features
+
+* Responsive design for all devices
+* Interactive hero section
+* Animated project showcase
+* Dynamic tech stack display
+* Testimonials section
+* Contact section
+* Custom UI components
+* Modern glassmorphism and spotlight effects
+* SEO-friendly Next.js architecture
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Next.js 14
+* React
+* TypeScript
+* Tailwind CSS
+
+### UI & Animation
+
+* React Bits
+* Custom Orbit Animations
+* Spotlight Effects
+* Gooey Navigation Effects
+
+### Development Tools
+
+* ESLint
+* PostCSS
+* npm
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+├── app/
+│   ├── page.tsx
+│   └── internal-tools-for-small-teams/
+├── components/
+│   ├── Card.tsx
+│   ├── HeroOrbit.tsx
+│   ├── SpotlightCard.tsx
+│   ├── GooevyNav.tsx
+│   └── reactbits/
+├── sections/
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Projects.tsx
+│   ├── Testimonials.tsx
+│   ├── Contact.tsx
+│   └── Footer.tsx
+└── lib/
+    └── utils.ts
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/hey-virender/VirenderChauhan.git
+```
+
+### Navigate to Project Directory
+
+```bash
+cd VirenderChauhan
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## 📸 Portfolio Sections
 
-To learn more about Next.js, take a look at the following resources:
+### Hero
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Introduction, role, and quick overview.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### About
 
-## Deploy on Vercel
+Professional background, skills, and experience.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Projects
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Featured projects with descriptions and technologies used.
+
+### Testimonials
+
+Feedback and recommendations.
+
+### Contact
+
+Ways to connect and collaborate.
+
+---
+
+## 🎯 Future Improvements
+
+* Blog Integration
+* Case Studies Section
+* Dark/Light Theme Toggle
+* CMS Integration
+* Project Analytics Dashboard
+
+---
+
+## 👨‍💻 Author
+
+**Virender Chauhan**
+
+Full Stack Developer | MERN Stack Developer | AI & ML Enthusiast
+
+🌐 Website: https://virenderchauhan.in
+
+💼 LinkedIn: https://linkedin.com/in/hey-virender
+
+📧 Email: [bikuchauhan786@gmail.com](mailto:bikuchauhan786@gmail.com)
+
+🐙 GitHub: https://github.com/hey-virender
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a star on GitHub.
+
+```bash
+⭐ Star this repository
+🍴 Fork it
+🤝 Contribute
+```
+
+---
+
+### Built with ❤️ by Virender Chauhan
