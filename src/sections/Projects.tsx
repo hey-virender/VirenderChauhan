@@ -1,9 +1,5 @@
-import universityLibraryImage from "@/assets/images/library.png";
-import edugatorImage from "@/assets/images/edugator.png";
-import orbifyImage from "@/assets/images/orbify.png";
 import prepwiseImage from "@/assets/images/prepwise.png";
 import playPasteImage from "@/assets/images/playpaste.png";
-import kingsukhImage from "@/assets/images/kingsukh.png";
 import dorentImage from "@/assets/images/dorent.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
@@ -26,59 +22,8 @@ const portfolioProjects = [
       },
     ],
     repoLink: "https://github.com/hey-virender/do-rent",
-    link: "https://do-rent.vercel.app",
-    image: dorentImage,
-  },
-  {
-    company: "King Sukh Guest House",
-    year: "2025",
-    title: "Guest house landing page",
-    results: [
-      {
-        title: "Improved design of existing website.",
-      },
-      { title: "Responsive for all screen sizes" },
-      {
-        title: "Modern UI and animations",
-      },
-    ],
-    repoLink: "https://github.com/hey-virender/kingsukh-guest-house",
-    link: "https://beautiful-otter-91fe68.netlify.app",
-    image: kingsukhImage,
-  },
-  {
-    company: "Social Media Platform",
-    year: "2025",
-    title: "Social Media Web Application",
-    results: [
-      {
-        title: "Users can upload images and interact with them",
-      },
-      { title: "Story upload functionality with auto expire" },
-      {
-        title: "Follower and Following functinality",
-      },
-    ],
-    repoLink: "https://github.com/hey-virender/social-media-app",
-    link: "https://social-media-app-lac-nu.vercel.app",
-    image: orbifyImage,
-  },
-  {
-    company: "Edugator",
-    year: "2025",
-    title: "AI powered tutor",
-    results: [
-      {
-        title: "AI powered tutor that make learning easy.",
-      },
-      { title: "Personalized tutor for each subject." },
-      {
-        title: "Voice Interaction using Vapi and Gemini.",
-      },
-    ],
-    repoLink: "https://github.com/hey-virender/edugator",
     link: "",
-    image: edugatorImage,
+    image: dorentImage,
   },
   {
     company: "Playpaste",
@@ -94,7 +39,7 @@ const portfolioProjects = [
       },
     ],
     repoLink: "https://github.com/hey-virender/Playpaste",
-    link: "https://playpaste.virenderchauhan.in",
+    link: "",
     image: playPasteImage,
   },
 
@@ -116,27 +61,8 @@ const portfolioProjects = [
       },
     ],
     repoLink: "https://github.com/hey-virender/prepwise",
-    link: "https://prepwise-brown.vercel.app",
+    link: "",
     image: prepwiseImage,
-  },
-  {
-    company: "University Library",
-    year: "2025",
-    title: "Library Management System",
-    results: [
-      { title: "Developed a system to manage book borrowing and returns" },
-      {
-        title:
-          "Implemented an admin panel for easy book addition and management",
-      },
-      {
-        title:
-          "Built with Next.js for seamless server-side rendering and fast performance",
-      },
-    ],
-    repoLink: "https://github.com/hey-virender/university-library.git",
-    link: "https://university-library-wine.vercel.app",
-    image: universityLibraryImage,
   },
 ];
 
