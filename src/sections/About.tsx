@@ -31,7 +31,6 @@ import {
 } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { FaGitAlt, FaNodeJs } from "react-icons/fa";
-import { AiOutlineDotNet } from "react-icons/ai";
 
 const hobbies = [
   {
@@ -134,10 +133,6 @@ const toolboxItems = [
     iconType: FaGitAlt,
   },
   {
-    title: ".NET",
-    iconType: AiOutlineDotNet,
-  },
-  {
     title: "Shadcn UI",
     iconType: SiShadcnui,
   },
@@ -180,7 +175,7 @@ export const AboutSection = () => {
               <CardHeader
                 className=""
                 title="My Toolbox"
-                description="Explore the technologies and tools i use to used to craft exceptional digital experiences"
+                description="The technologies and tools I reach for most"
               />
 
               <ToolboxItems
@@ -199,7 +194,7 @@ export const AboutSection = () => {
             <Card className="h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-2">
               <CardHeader
                 title="My Hobbies"
-                description="Explore my interest and hobbies beyond the code"
+                description="What I get up to away from the keyboard"
                 className="px-6 py-6"
               />
 

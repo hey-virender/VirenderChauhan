@@ -33,7 +33,7 @@ const portfolioProjects = [
       {
         title: "Create playlists by pasting the list of songs.",
       },
-      { title: "Ingreted gemini for prompt processing." },
+      { title: "Integrated Gemini for prompt processing." },
       {
         title: "Uses YT api to create playlists.",
       },
@@ -73,7 +73,7 @@ export const ProjectsSection = () => {
         <SectionHeader
           eyebrow="Portfolio"
           title="My projects"
-          description="This are some of my projects"
+          description="A selection of things I have designed and built"
         />
 
         <div className="flex flex-col mt-10 gap-20 md:mt-20 ">
