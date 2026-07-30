@@ -22,7 +22,7 @@ const portfolioProjects = [
       },
     ],
     repoLink: "https://github.com/hey-virender/do-rent",
-    link: "",
+    link: "https://do-rent.vercel.app",
     image: dorentImage,
   },
   {
