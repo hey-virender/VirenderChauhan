@@ -4,7 +4,7 @@ import Link from "next/link";
 const footerLInks = [
   {
     title: "LinkedIn",
-    url: "https://www.linkedin.com/in/virender-chauhan-a44215253",
+            url: "https://www.linkedin.com/in/virender-chauhan-776bb7424/",
   },
   {
     title: "Github",
