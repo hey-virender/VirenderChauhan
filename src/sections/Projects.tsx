@@ -14,11 +14,16 @@ const portfolioProjects = [
     title: "Rental Property Manager",
     results: [
       {
-        title: "Find best rental house and rooms.",
+        title:
+          "Problem: no single place for landlords and tenants to list, browse, and manage rentals with proper role-based access.",
       },
-      { title: "List your properties for free." },
       {
-        title: "Manage properties with ease",
+        title:
+          "Approach: role-based auth for landlord/tenant/admin, real-time messaging via Server-Sent Events, MongoDB + Prisma backend.",
+      },
+      {
+        title:
+          "Outcome: free property listings, live in-app messaging, and type-safe REST APIs validated with Zod.",
       },
     ],
     repoLink: "https://github.com/hey-virender/do-rent",
@@ -31,11 +36,15 @@ const portfolioProjects = [
     title: "Generate YT playlist with ease of AI",
     results: [
       {
-        title: "Create playlists by pasting the list of songs.",
+        title:
+          "Problem: turning a pasted list of song titles into a YouTube playlist means searching and adding every track by hand.",
       },
-      { title: "Integrated Gemini for prompt processing." },
       {
-        title: "Uses YT api to create playlists.",
+        title:
+          "Approach: Gemini parses the pasted list into structured song queries, then the YouTube API builds the playlist.",
+      },
+      {
+        title: "Outcome: paste a list, get a playlist — no manual searching.",
       },
     ],
     repoLink: "https://github.com/hey-virender/Playpaste",
@@ -50,14 +59,15 @@ const portfolioProjects = [
     results: [
       {
         title:
-          "AI-Powered Interviews: Create custom interviews by talking to AI.",
+          "Problem: solo interview practice has no real back-and-forth and no immediate feedback.",
       },
       {
         title:
-          "Real-Time Feedback: Get instant AI-driven performance analysis.",
+          "Approach: learned voice-AI integration by extending a Vapi + Gemini tutorial with retake support, IST timestamp handling, and in-place feedback updates.",
       },
       {
-        title: "Community Practice: Attempt interviews made by other users.",
+        title:
+          "Outcome: a voice-based mock interview platform with live AI conversation and instant, structured feedback.",
       },
     ],
     repoLink: "https://github.com/hey-virender/prepwise",
