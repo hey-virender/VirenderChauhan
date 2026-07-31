@@ -4,6 +4,7 @@ import { Footer } from "@/sections/Footer";
 import { Header } from "@/sections/Header";
 import { HeroSection } from "@/sections/Hero";
 import { ProjectsSection } from "@/sections/Projects";
+import { ServicesSection } from "@/sections/Services";
 import { TapeSection } from "@/sections/Tape";
 import Head from "next/head";
 
@@ -17,6 +18,7 @@ export default function Home() {
         <Header />
         <HeroSection />
         <ProjectsSection />
+        <ServicesSection />
         <TapeSection />
         <AboutSection />
         <div className="contact-container z-0" id="contact">
