@@ -163,7 +163,7 @@ Full Stack Developer | MERN Stack Developer | AI & ML Enthusiast
 
 🌐 Website: https://virenderchauhan.in
 
-💼 LinkedIn: https://linkedin.com/in/hey-virender
+💼 LinkedIn: https://www.linkedin.com/in/virender-chauhan-776bb7424/
 
 📧 Email: [bikuchauhan786@gmail.com](mailto:bikuchauhan786@gmail.com)
 
